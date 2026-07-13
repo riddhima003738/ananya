@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TestCraft AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="container">
+
+<h1>📄 TestCraft AI</h1>
+
+<label>Class</label>
+<select id="class">
+<option>Class 9</option>
+<option>Class 10</option>
+<option>Class 11</option>
+<option selected>Class 12</option>
+</select>
+
+<label>Subject</label>
+<input type="text" id="subject" placeholder="Chemistry">
+
+<label>Chapter</label>
+<input type="text" id="chapter" placeholder="Electrochemistry">
+
+<label>Teacher Name</label>
+<input type="text" id="teacher" placeholder="Mr. Sharma">
+
+<label>School Name</label>
+<input type="text" id="school" placeholder="ABC School">
+
+<label>Marks</label>
+<input type="number" id="marks" placeholder="30">
+
+<label>Time (Minutes)</label>
+<input type="number" id="time" placeholder="60">
+
+<label>Difficulty</label>
+<select id="difficulty">
+<option>Easy</option>
+<option selected>Medium</option>
+<option>Hard</option>
+</select>
+
+<button onclick="generatePaper()">
+🚀 Generate Test Paper
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
